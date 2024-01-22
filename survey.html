@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey form</title>
+    <link href="survey.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div>
+      <main>
+        <h1 id="title">Freecodecamp Survey Form</h1>
+        <p id="description">Am grateful that you have decided to improve our platform</p>
+        <section>
+          <form id="survey-form">
+              <label id="name-label">Name</label>
+<input type="text" placeholder="Enter your name" id="name" required>
+<label id="email-label">Email</label>
+<input type="email" placeholder="Enter your email" id="email" required>
+  <label id="number-label">Age(optional)</label>
+  <input type="number" placeholder="Age" id="number" min="18" max="100" required>
+<label>Which option best describes your current role?</label>
+<select id="dropdown">
+  <option value="0">select current job</option>
+   <option value="1">student</option>
+    <option value="2">full time job</option>
+     <option value="3">full time learner</option>
+      <option value="4">prefer not say</option>
+       <option value="5">other</option>
+</select>
+<fieldset>
+  <label for="recommend">Would you recommend freecodecamp to a friend?</label>
+<label><input type="radio" value="definitely" id="definitely" name="definitely-maybe-not sure" checked>Definetely</label>
+  <label><input type="radio" value="maybe" id="maybe" name="definitely-maybe-not sure">Maybe</label>
+  <label><input type="radio" value="maybe" id="maybe" name="definitely-maybe-not sure">not sure</label>
+</fieldset>
+<label>What is your favourite feature on freecodecamp</label>
+<select>
+  <option value="0">Select an option</option>
+  <option value="1">Challenges </option>
+  <option value="2">projects</option>
+  <option value="3">community </option>
+  <option value="4">Open source</option>
+</select>
+<section class="feedback">
+<label>What would you like to see improved?(check all that apply)</label>
+<label><input type="checkbox" value="front-end projects"> front-end projects</label>
+<label><input type="checkbox" value="back-end projects"> Back-end projects</label>
+<label><input type="checkbox" value="data visualisation"> Data visualisation</label>
+<label><input type="checkbox" value="challenges"> Challenges</label>
+<label><input type="checkbox" value="open source community"> Open source community</label>
+<label><input type="checkbox" value="gitter help rooms"> gitter help room<label>
+<label><input type="checkbox" value="videos"> videos</label>
+<label><input type="checkbox" value="city meetups"> city meetups</label>
+<label><input type="checkbox" value="wiki"> Wiki</label>
+<label><input type="checkbox" value="forum"> Forum</label>
+<label><input type="checkbox" value="additional courses"> Additional courses</label>
+</section>
+<label>Any comments or suggestions</label>
+<textarea type="text" placeholder="Enter your comment here" cols="48" rows="4"></textarea>
+<input type="submit" id="submit" value="Submit">
+          </form>
+          </section>
+      </main>
+    </div>
+  </body>

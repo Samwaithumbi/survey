@@ -1,0 +1,45 @@
+*{
+  margin-top: 5px;
+ padding:5px; 
+}
+body{
+    width:60%;
+    height:100vh;
+    background-color:rgb(145, 145, 246);
+    margin-left:auto;
+    margin-right:auto;
+  display:block;
+  }
+  h1,p{
+    text-align:center;
+  }
+  h1{
+    font-weight: 900;
+    font-size: 50px;
+  }
+  #survey-form{ 
+    background-color:#1b1b32;
+    color:white;
+  }
+  input{
+    display:block;
+  }
+  
+  label{
+    display: block;
+   
+  }
+  input{
+    display: inline;
+  }
+  #submit{
+display: block;
+width: 40%;
+height: 50px;
+border:2px solid #1b1b32 ;
+background-color: gray;
+margin: auto;
+margin-top:10px;
+margin-bottom: 10px; 
+padding: 4px;
+  }
